@@ -17,6 +17,6 @@ public class HelloBaby {
 
     public static void main(String[] args) {
 //        say("hello");
-        print("hi");
+        print("하이");
     }
 }
