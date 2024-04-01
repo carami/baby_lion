@@ -1,0 +1,9 @@
+package com.exam.day02;
+
+public class Person {
+    String name;
+
+    public String getName(){
+        return name;
+    }
+}
