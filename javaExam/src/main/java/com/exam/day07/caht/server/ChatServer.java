@@ -52,6 +52,7 @@ public class ChatServer {
 
 
                 //6. ChatHandler (client)
+                new ChatHandler(clientManager,chatRoomManager, client).start();
 
             }
         }catch (IOException e){

@@ -19,4 +19,8 @@ public class ClientManager {
     public void addClient(Client client){
         map.put(client.getNickname(), client);
     }
+
+    public void removeClient(Client client){
+        map.remove(client);
+    }
 }
